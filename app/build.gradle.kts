@@ -37,8 +37,8 @@ android {
         applicationId = "com.mufeedcm.mulauncher"
         minSdk = 21
         targetSdk = 36
-        versionCode = 56
-        versionName = "0.2.11"
+        versionCode = 57
+        versionName = "0.1.0"
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
     }
