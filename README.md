@@ -1,26 +1,24 @@
 # Mulauncher
 
-Mulauncher is a custom fork of [μLauncher](https://github.com/jrpie/Launcher), which is itself based on [Launcher](https://github.com/finnmglas/Launcher).
+Mulauncher is a fork of [μLauncher](https://github.com/jrpie/Launcher).
 
-The goal of this fork is to keep the fast, gesture-driven launcher core while reshaping the settings experience, grouping, and overall customization model.
+I made this fork because I wanted to customize the launcher more freely and add my own features over time.
+
+The changes in this fork are vibe-coded.
 
 ## Status
 
-This fork is in active rebrand and customization work.
+The app builds and runs, and the first rebrand pass is already done.
 
-Current direction:
+Current state:
 
-- keep upstream syncing practical
-- preserve license and attribution
-- customize the settings UI and information architecture heavily
-- keep core launcher behavior close to upstream where it makes sense
+- app name: `Mulauncher`
+- application id: `com.mufeedcm.mulauncher`
+- branch model:
+  - `master` for upstream sync
+  - `main` for Mulauncher work
 
-## Upstream Sync Model
-
-- `master`: upstream sync branch
-- `main`: Mulauncher development branch
-
-Typical update flow:
+## Upstream Sync
 
 ```bash
 git checkout master
@@ -39,9 +37,9 @@ Open the project in Android Studio and run the `app` target on a device or emula
 
 ## License
 
-This project remains MIT-licensed.
+This project is MIT-licensed.
 
-- Original Launcher copyright: Finn Glas
+- Original code: Finn Glas
 - μLauncher fork modifications: Josia Pietsch
 - Mulauncher fork modifications: Mufeed C M
 
