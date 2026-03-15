@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name" translatable="false">μLauncher</string>
+    <string name="app_name" translatable="false">Mulauncher</string>
     <!--
       -
       - Settings
@@ -180,12 +180,12 @@
       - URLs
       -
     -->
-    <string name="settings_meta_link_github" translatable="false">https://github.com/jrpie/Launcher</string>
+    <string name="settings_meta_link_github" translatable="false">https://github.com/mufeedcm/mulauncher</string>
     <string name="settings_meta_link_docs" translatable="false">https://launcher.jrpie.de/</string>
-    <string name="settings_meta_report_bug_link" translatable="false">https://github.com/jrpie/Launcher/issues/new?template=bug_report.yaml</string>
+    <string name="settings_meta_report_bug_link" translatable="false">https://github.com/mufeedcm/mulauncher/issues/new?template=bug_report.yaml</string>
     <string name="settings_meta_report_bug_mail" translatable="false">android-launcher-crash@jrpie.de</string>
-    <string name="settings_meta_report_vulnerability_link" translatable="false">https://github.com/jrpie/Launcher/security/policy</string>
-    <string name="settings_meta_fork_contact_url" translatable="false">https://s.jrpie.de/contact</string>
+    <string name="settings_meta_report_vulnerability_link" translatable="false">https://github.com/mufeedcm/mulauncher/security/policy</string>
+    <string name="settings_meta_fork_contact_url" translatable="false">https://github.com/mufeedcm</string>
     <string name="settings_meta_privacy_url" translatable="false">https://s.jrpie.de/android-legal</string>
     <string name="settings_meta_contact_url" translatable="false">https://www.finnmglas.com/contact/</string>
     <string name="settings_meta_chat_url" translatable="false">https://s.jrpie.de/launcher-chat</string>
@@ -201,13 +201,14 @@
 
     <!-- Legal -->
     <string name="legal_info_text"><![CDATA[
-        <h2>μLauncher</h2>
-        Modifications to Launcher.
-        <p><a href=\"https://github.com/jrpie/launcher\">github.com/jrpie/launcher</a></p>
+        <h2>Mulauncher</h2>
+        A fork of μLauncher.
+        <p><a href=\"https://github.com/mufeedcm/mulauncher\">github.com/mufeedcm/mulauncher</a></p>
 
         <p>MIT License</p>
 
-        Copyright © 2025 Josia Pietsch<br/><br/>
+        Copyright © 2025 Josia Pietsch<br/>
+        Copyright © 2026 Mufeed C M<br/><br/>
         Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the \"Software\"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:<br/><br/>The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.<br/><br/>THE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
         <br/><br/>
 

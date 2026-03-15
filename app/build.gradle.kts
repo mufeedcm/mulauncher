@@ -34,7 +34,7 @@ android {
     compileSdk = 36
 
     defaultConfig {
-        applicationId = "de.jrpie.android.launcher"
+        applicationId = "com.mufeedcm.mulauncher"
         minSdk = 21
         targetSdk = 36
         versionCode = 56

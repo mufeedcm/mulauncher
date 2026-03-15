@@ -225,7 +225,7 @@ fun getApps(
 // used for the bug report button
 fun getDeviceInfo(): String {
     return """
-        µLauncher version: ${BuildConfig.VERSION_NAME} (${BuildConfig.VERSION_CODE})
+        Mulauncher version: ${BuildConfig.VERSION_NAME} (${BuildConfig.VERSION_CODE})
         Commit ${BuildConfig.GIT_COMMIT.take(8)}
         Android version: ${Build.VERSION.RELEASE} (sdk ${Build.VERSION.SDK_INT})
         Model: ${Build.MODEL}
@@ -249,4 +249,3 @@ fun writeEmail(context: Context, to: String, subject: String, text: String) {
     intent.putExtra(Intent.EXTRA_TEXT, text)
     context.startActivity(Intent.createChooser(intent, context.getString(R.string.send_email)))
 }
-

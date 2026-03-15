@@ -213,10 +213,10 @@
       - Settings : Meta
       -
       -->
-    <string name="settings_general_choose_home_screen">Set μLauncher as home screen</string>
+    <string name="settings_general_choose_home_screen">Set Mulauncher as home screen</string>
     <string name="settings_meta_cant_select_launcher">App Info</string>
 
-    <string name="settings_meta_show_tutorial">View µLauncher Tutorial</string>
+    <string name="settings_meta_show_tutorial">View Mulauncher tutorial</string>
 
     <string name="settings_meta_reset">Reset Settings</string>
     <string name="settings_meta_reset_confirm">You are going to discard all your preferences. Continue?</string>
@@ -225,14 +225,14 @@
     <string name="settings_meta_report_bug">Report a bug</string>
 
     <string name="dialog_report_bug_title">Report a bug</string>
-    <string name="dialog_report_bug_info">Thank you for helping to improve μLauncher!\nPlease consider adding the following information to your bug report:</string>
+    <string name="dialog_report_bug_info">Thank you for helping improve Mulauncher.\nPlease consider adding the following information to your bug report:</string>
     <string name="dialog_report_bug_button_clipboard">Copy to clipboard</string>
     <string name="dialog_report_bug_security_info">Please do not report security vulnerabilities publicly on GitHub, but use the following instead:</string>
     <string name="dialog_report_bug_button_security">Report a security vulnerability</string>
     <string name="dialog_report_bug_create_report">Create report</string>
 
     <string name="settings_meta_fork_contact">Contact the developer of the fork</string>
-    <string name="settings_meta_join_chat">Join μLauncher chat</string>
+    <string name="settings_meta_join_chat">Join Mulauncher chat</string>
     <string name="settings_meta_donate">Donate</string>
 
     <string name="settings_meta_privacy">Privacy Policy</string>
@@ -267,7 +267,7 @@
     <string name="list_apps_search_hint">Search</string>
     <string name="list_apps_search_hint_no_auto_launch">Search (no auto launch)</string>
 
-    <string name="list_other_settings">μLauncher Settings</string>
+    <string name="list_other_settings">Mulauncher Settings</string>
     <string name="list_other_list">All Applications</string>
     <string name="list_other_list_favorites">Favorite Applications</string>
     <string name="list_other_list_private_space">Private Space</string>
@@ -299,7 +299,7 @@
     <string name="tutorial_start_text">👋\n\nTake a few seconds to learn how to use this Launcher!</string>
 
     <string name="tutorial_concept_title">Concept</string>
-    <string name="tutorial_concept_text">μLauncher is designed to be minimal, efficient and free of distraction.
+    <string name="tutorial_concept_text">Mulauncher is designed to be minimal, efficient and free of distraction.
         \n\nIt contains no ads and collects no data.</string>
     <string name="tutorial_concept_text_2">It is free software (MIT license)!\nMake sure to check out the repository!</string>
     <string name="tutorial_concept_label_version">Version</string>
@@ -318,7 +318,7 @@
     <string name="tutorial_setup_text_2">You can also change your selection later.</string>
 
     <string name="tutorial_finish_title">Let\'s go!</string>
-    <string name="tutorial_finish_text">You are ready to get started!\n\nI hope this is of great value to you!\n\n- Finn (who made Launcher) and Josia (who made some improvements and maintains the fork μLauncher)</string>
+    <string name="tutorial_finish_text">You are ready to get started.\n\nI hope this is of great value to you.\n\n- Finn (Launcher), Josia (μLauncher), and Mufeed (Mulauncher)</string>
     <string name="tutorial_finish_button">Start</string>
 
 
@@ -330,7 +330,7 @@
     <string name="snackbar_app_hidden">App hidden. You can make it visible again in settings.</string>
     <string name="undo">Undo</string>
     <string name="list_other_expand_settings_panel">Quick Settings</string>
-    <string name="toast_device_admin_not_enabled">μLauncher needs to be a device admin in order to lock the screen.</string>
+    <string name="toast_device_admin_not_enabled">Mulauncher needs to be a device admin in order to lock the screen.</string>
     <string name="device_admin_explanation">This is required for the lock screen action.</string>
     <string name="device_admin_description">Enable the lock screen action</string>
     <string name="alert_no_torch_found">No camera with torch detected.</string>
@@ -338,27 +338,27 @@
     <string name="alert_lock_screen_failed">Error: Failed to lock screen. (If you just upgraded the app, try to disable and re-enable the accessibility service in phone settings)</string>
     <string name="alert_recent_apps_failed">Error: Failed to show recent apps. (If you just upgraded the app, try to disable and re-enable the accessibility service in phone settings)</string>
     <string name="alert_enable_accessibility_failed">Error: Failed to enable the accessibility service.</string>
-    <string name="toast_accessibility_service_not_enabled">μLauncher\'s accessibility service is not enabled. Please enable it in settings</string>
+    <string name="toast_accessibility_service_not_enabled">Mulauncher\'s accessibility service is not enabled. Please enable it in settings</string>
     <string name="toast_private_space_locked">Private space locked</string>
     <string name="toast_private_space_unlocked">Private space unlocked</string>
     <string name="toast_private_space_not_available">Private space is not available</string>
-    <string name="toast_private_space_default_home_screen">μLauncher needs to be the default home screen to access private space.</string>
+    <string name="toast_private_space_default_home_screen">Mulauncher needs to be the default home screen to access private space.</string>
     <string name="tooltip_lock_private_space">Lock private space</string>
     <string name="tooltip_unlock_private_space">Unlock private space</string>
     <string name="toast_lock_screen_not_supported">Error: Locking the screen using accessibility is not supported on this device. Please use device admin instead.</string>
-    <string name="accessibility_service_name">μLauncher</string>
+    <string name="accessibility_service_name">Mulauncher</string>
     <string name="accessibility_service_description">
-        Setting μLauncher as an accessibility service allows it to lock the screen and open the recent apps menu.
+        Setting Mulauncher as an accessibility service allows it to lock the screen and open the recent apps menu.
         Note that excessive permissions are required. You should never grant such permissions lightly to any app.
 
-        μLauncher will use the accessibility service only for performing the following actions when requested by the user:
+        Mulauncher will use the accessibility service only for performing the following actions when requested by the user:
 
         * lock screen
         * open recent apps
 
-        μLauncher will never use the accessibility service to collect data. You can check the source code to make sure.
+        Mulauncher will never use the accessibility service to collect data. You can check the source code to make sure.
 
-        Note that locking the screen can also be accomplished by granting μLauncher device administrator permissions. However that method doesn\'t work with fingerprint and face unlock.
+        Note that locking the screen can also be accomplished by granting Mulauncher device administrator permissions. However that method doesn\'t work with fingerprint and face unlock.
     </string>
 
 
@@ -376,9 +376,9 @@
 
         <h3>Accessibility Service</h3>
         Requires excessive privileges.
-        μLauncher will use those privileges only for locking the screen.
+        Mulauncher will use those privileges only for locking the screen.
         <br/>
-        (You really should not trust a random app you just downloaded with such a claim, but you can check the <a href=\"https://github.com/jrpie/Launcher\">source code</a>.)
+        (You really should not trust a random app you just downloaded with such a claim, but you can check the <a href=\"https://github.com/mufeedcm/mulauncher\">source code</a>.)
         <br/>
         On some devices, the start-up PIN will no longer be used for encrypting data after activating an accessibility service.
         This can be <a href="https://issuetracker.google.com/issues/37010136#comment36">reactivated</a> afterwards.
@@ -397,16 +397,16 @@
     <string name="dialog_select_color_green">Green</string>
     <string name="dialog_select_color_color_hex">Color</string>
     <string name="dialog_choose_color_title">Choose color</string>
-    <string name="dialog_consent_accessibility_privileges">I am aware that this will grant far-reaching privileges to μLauncher.</string>
+    <string name="dialog_consent_accessibility_privileges">I am aware that this will grant far-reaching privileges to Mulauncher.</string>
     <string name="dialog_consent_accessibility_other_options">I am aware that other options exist (using device administrator privileges or the power button).</string>
-    <string name="dialog_consent_accessibility_consent">I consent to μLauncher using the accessibility service to provide functionality unrelated to accessibility.</string>
-    <string name="dialog_consent_accessibility_data_collection">I consent to μLauncher not collecting any data.</string>
-    <string name="dialog_consent_accessibility_text"><![CDATA[You are about to activate the accessibility service. This will grant <strong>far-reaching privileges</strong> to μLauncher.<br/>μLauncher will use these privileges <strong>only</strong> to perform the following actions:
+    <string name="dialog_consent_accessibility_consent">I consent to Mulauncher using the accessibility service to provide functionality unrelated to accessibility.</string>
+    <string name="dialog_consent_accessibility_data_collection">I consent to Mulauncher not collecting any data.</string>
+    <string name="dialog_consent_accessibility_text"><![CDATA[You are about to activate the accessibility service. This will grant <strong>far-reaching privileges</strong> to Mulauncher.<br/>Mulauncher will use these privileges <strong>only</strong> to perform the following actions:
     <ul>
         <li>Lock Screen</li>
         <li>Recent Apps</li>
     </ul>
-     μLauncher <strong>will never collect any data</strong>. In particular, μLauncher does not use the accessibility service to collect any data.]]></string>
+     Mulauncher <strong>will never collect any data</strong>. In particular, Mulauncher does not use the accessibility service to collect any data.]]></string>
     <string name="dialog_consent_accessibility_title">Activating the Accessibility Service</string>
     <string name="dialog_consent_accessibility_ok">Activate Accessibility Service</string>
     <string name="dialog_cancel">Cancel</string>
@@ -423,7 +423,7 @@
 
 
     <string name="widget_clock_label">Clock</string>
-    <string name="widget_clock_description">The default clock of μLauncher</string>
+    <string name="widget_clock_description">The default clock of Mulauncher</string>
     <string name="manage_widget_panels_delete">Delete</string>
     <string name="manage_widget_panels_rename">Rename</string>
 
@@ -442,7 +442,7 @@
     <string name="list_other_open_widget_panel">Open Widget Panel</string>
     <string name="alert_widget_panel_not_found">This widget panel no longer exists.</string>
     <string name="settings_launcher_section_widgets">Widgets</string>
-    <string name="notification_crash_title">μLauncher crashed</string>
+    <string name="notification_crash_title">Mulauncher crashed</string>
     <string name="notification_crash_explanation">Sorry! Click for more information.</string>
     <string name="crash_info"><![CDATA[
         Looks like something went wrong, sorry about that!<br><br>
@@ -454,8 +454,8 @@
         <h2>What can I do now?</h2>
         If this bug appears again and again, you can try several things:
         <ul>
-        <li>Force stop μLauncher</li>
-        <li>Clear μLauncher\'s storage (<strong>Your settings will be lost!</strong>)</li>
+        <li>Force stop Mulauncher</li>
+        <li>Clear Mulauncher\'s storage (<strong>Your settings will be lost!</strong>)</li>
         <li>Install an older version (<a href=\"https://github.com/jrpie/Launcher/releases\">GitHub</a>, <a href=\"https://f-droid.org/en/packages/de.jrpie.android.launcher\">F-Droid</a>)</li>
         </ul>
         ]]>
@@ -463,7 +463,7 @@
     <string name="report_crash_button_copy">Copy crash report to clipboard</string>
     <string name="report_crash_button_mail">Send report by mail</string>
     <string name="report_crash_button_report">Create bug report on GitHub</string>
-    <string name="report_crash_title">μLauncher crashed</string>
+    <string name="report_crash_title">Mulauncher crashed</string>
     <string name="send_email">Send Email</string>
     <string name="notification_channel_crash">Crashes and Debug Information</string>
     <string name="settings_meta_view_docs">Documentation</string>
